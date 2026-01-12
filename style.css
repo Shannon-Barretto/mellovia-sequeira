@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  text-align: center;
+  color: #4a2c2a;
+}
+
+.container {
+  padding: 40px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #ff6f91;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.gallery {
+  margin-top: 30px;
+}
+
+.gallery img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.message {
+  margin-top: 40px;
+  background: rgba(255,255,255,0.6);
+  padding: 20px;
+  border-radius: 20px;
+}
